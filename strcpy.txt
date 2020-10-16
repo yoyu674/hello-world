@@ -17,3 +17,4 @@ ptr++;
 *ptr='\0';
 return  *ptr;
 }
+远程edit

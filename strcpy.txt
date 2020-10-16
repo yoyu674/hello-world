@@ -1,0 +1,19 @@
+char *StrCpy(char *src)
+{
+   int  len=1,i;
+char *p=src;
+   while(*src!=0)
+{
+len++;
+src++;
+}
+char *ptr=(char*)malloc((len+1)*sizeof(char));
+while(*p!=0)
+{
+*ptr=*p;
+p++;
+ptr++;
+}
+*ptr='\0';
+return  *ptr;
+}
